@@ -1,0 +1,157 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.pri-bg-col {
+background-color: #2487ce !important;
+}
+
+.pri-text-col {
+    color: #2487ce !important;
+}
+
+.pri-btn-col {
+    border-color: #2487ce !important;
+}
+
+
+.sec-bg-col {
+background-color: #124265 !important;
+}
+
+.sec-text-col {
+    color: #124265 !important;
+}
+
+.sec-btn-col {
+    border-color: #124265 !important;
+}
+
+.big-text {
+    font-size: 60px;
+}
+
+.card-zoom {
+    transition: all ease-in-out 0.5s;
+}
+
+.card-zoom:hover {
+    transform: scale(1.09);
+}
+
+.card-zoom:hover h5 {
+    color: #2487ce !important;
+    cursor: pointer;
+}
+
+.bg {
+    background: linear-gradient(to bottom, 
+    rgb(225, 225, 225, 0.728),
+    rgb(225, 225, 225, 0.728)),
+     url('./');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+}
+
+.z {
+    z-index: 100;
+}
+
+/* about us */
+
+.about-btn {
+    transition: all ease-in-out 0.5s;
+}
+
+.about-btn:hover {
+    background-color: #2487ce !important;
+    color: white !important;
+}
+
+/* testimonials */
+.carousel-bg-col {
+    background-color: #f3f9fd;
+}
+
+.carousel-text-col {
+    color: #c9e3f5;
+}
+
+.card-eff:hover .text {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.text {
+    display: flex;
+    position: absolute;
+    background-color: #2487ce94;
+    font-size: 15px;
+    transition: all ease-in-out 0.4s;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    transform: scale(0.8);
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    /* cursor: pointer; */
+}
+
+.card-eff::before {
+    content: '';
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    z-index: 50;
+    transition: all ease-in-out 0.3s;
+}
+
+.card-eff:hover::before {
+    opacity: 1;
+}
+
+.card-eff::after {
+    content: '';
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
+    z-index: 50;
+    transition: all ease-in-out 0.3s;
+}
+
+.card-eff:hover::after {
+    opacity: 1;
+}
+
+/* swiper css */
+.swiper {
+    width: 100%;
+    height: auto;
+}
+
+/* bootstap masonry */
+.grid-item {
+    width: 250px; 
+}
+
+.grid-item--width2 {
+    width: 350px; 
+}
+
+.accordion-button {
+    background-color: transparent !important;
+}

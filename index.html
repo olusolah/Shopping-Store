@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Poppins:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+
+    <!-- bootsrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- boxicon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- aos animation css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- custom sytles -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <!-- swiper js -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+  <body>
+    <!-- <h1 class="text-center text-primary fs-3">Hello, world!</h1> -->
+
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg py-3 shadow-sm position-fixed w-100 bg-white z">
+        <div class="container-sm">
+          <a class="navbar-brand fs-3 sec-text-col" href="#">OnePage</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-2" style="font-family: 'Open Sans', sans-serif; font-size: 15px;">
+              <li class="nav-item">
+                <a class="nav-link active nav-hover" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link sec-text-col nav-hover" href="#">About</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link sec-text-col nav-hover" href="#">Services</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link sec-text-col nav-hover" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link sec-text-col nav-hover" href="#">Team</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link sec-text-col nav-hover" href="#">Blog</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle sec-text-col nav-hover" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item sec-text-col nav-hover" href="#">Action</a></li>
+                  <li><a class="dropdown-item sec-text-col nav-hover" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider sec-text-col nav-hover"></li>
+                  <li><a class="dropdown-item sec-text-col nav-hover" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item mx-2">
+                <a class="nav-link sec-text-col nav-hover" href="#">Contact</a>
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              
+              <button class="btn pri-bg-col text-white button-hover" type="submit">Get Started</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <!-- hero -->
+    <main class="d-flex flex-column justify-content-center align-items-center py-5 bg">
+      <div class="hero-text text-center pt-5 mb-5 mt-5" data-aos="fade-up" data-aos-delay="100">
+        <h1 class="display-4 fw-bolder big-text sec-text-col">One Page Bootstrap</h1>
+        <h1 class="display-4 fw-bolder big-text sec-text-col">Website Template</h1>
+        <p class="fs-4">We are team of talented designers</p>
+        <button class="btn pri-bg-col px-5 py-3 text-white mt-4 button-hover">Get Started</button>
+      </div>
+
+      <div class="container text-center mt-5" data-aos="fade-up" data-aos-delay="300">
+        <div class="row gy-4">
+          <div class="col-md-6 col-lg-3 col-12">
+            <div class="card mx-auto shadow py-5 px-3 border-0 text-start card-zoom">
+              <div class="card-body">
+                <i class="bi bi-stack fs-2 pri-text-col"></i>
+                <h5 class="card-title my-3 sec-text-col">Lorem Ipsum</h5>
+                <p class="card-text text-secondary">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 col-12">
+            <div class="card mx-auto shadow py-5 px-3 border-0 text-start card-zoom">
+              <div class="card-body">
+                <i class="bi bi-palette fs-2 pri-text-col"></i>
+                <h5 class="card-title my-3 sec-text-col">Sed ut perspiciatis</h5>
+                <p class="card-text text-secondary">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 col-12">
+            <div class="card mx-auto shadow py-5 px-3 border-0 text-start card-zoom">
+              <div class="card-body">
+                <i class="bi bi-command fs-2 pri-text-col"></i>
+                <h5 class="card-title my-3 sec-text-col">Magni Dolores</h5>
+                <p class="card-text text-secondary">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 col-12">
+            <div class="card mx-auto shadow py-5 px-3 border-0 text-start card-zoom">
+              <div class="card-body">
+                <i class="bi bi-fingerprint fs-2 pri-text-col"></i>
+                <h5 class="card-title my-3 sec-text-col">Nemo Enim</h5>
+                <p class="card-text text-secondary">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </main>
+
+    <!-- about us -->
+    <section id="about-us" class="py-5 bg-white">
+      <div class="py-3 container-sm">
+        <h1 class="sec-text-col text-center fs-2 fw-medium">ABOUT US</h1>
+      <p class="text-secondary text-center">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
+
+      <div class="about-us-content row gy-4">
+        <div class="col-md-6 p-3">
+          <div class="card border-0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <ul class="list-group border-0">
+              <li class="list-group-item border-0 p-0">
+                <span><i class="bi bi-check2-all pri-text-col me-2"></i></span>
+                <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat</span>
+              </li>
+              <li class="list-group-item border-0 p-0">
+                <span><i class="bi bi-check2-all pri-text-col me-2"></i></span>
+                <span>Duis aute irure dolor in reprehenderit in voluptate velit</span>
+              </li>
+              <li class="list-group-item border-0 p-0">
+                <span><i class="bi bi-check2-all pri-text-col me-2"></i></span>
+                <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-6 p-3">
+          <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <button class="btn pri-btn-col pri-text-col px-4 about-btn">Learn More</button>
+
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- testimonials -->
+    <section id="testimonials" class="text-center">
+      <div class="py-5">
+        <div class="py-3 container-sm">
+          <h1 class="sec-text-col fs-2 fw-medium">TESTIMONIALS</h1>
+          <p class="text-secondary fst-italic"></i>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        </div>
+      </div>
+
+      <div class="container-sm">
+        <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="card p-4 border-0">
+              <div class="card-title carousel-bg-col rounded-3 p-3">
+              <p><i class='bx bxs-quote-alt-left fs-3 carousel-text-col'></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni molestias maiores cumque atque vitae consequuntur eaque aperiam nihil dicta, recusandae esse veniam quas ea accusantium debitis aspernatur pariatur! Eius, recusandae.  <i class='bx bxs-quote-alt-right fs-3 carousel-text-col'></i></p>
+            </div>
+            <div class="card-body">
+                <img src="./images/test-1.jpg" alt="" class="rounded-circle w-25 h-25">
+                <h5 class="fw-bold mt-2">Saul Goodman</h5>
+              <p>Ceo & Founder</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card p-4 border-0">
+            <div class="card-title carousel-bg-col rounded-3 p-3">
+            <p><i class='bx bxs-quote-alt-left fs-3 carousel-text-col'></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni molestias maiores cumque atque vitae consequuntur eaque aperiam nihil dicta, recusandae esse veniam quas ea accusantium debitis aspernatur pariatur! Eius, recusandae.  <i class='bx bxs-quote-alt-right fs-3 carousel-text-col'></i></p>
+          </div>
+          <div class="card-body">
+              <img src="./images/test-2.jpg" alt="" class="rounded-circle w-25 h-25">
+              <h5 class="fw-bold mt-2">Sara Wilsson</h5>
+            <p>Designer</p>
+          </div>
+          </div>
+        </div>
+
+          <div class="swiper-slide">
+            <div class="card p-4 border-0">
+              <div class="card-title carousel-bg-col rounded-3 p-3">
+              <p><i class='bx bxs-quote-alt-left fs-3 carousel-text-col'></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni molestias maiores cumque atque vitae consequuntur eaque aperiam nihil dicta, recusandae esse veniam quas ea accusantium debitis aspernatur pariatur! Eius, recusandae.  <i class='bx bxs-quote-alt-right fs-3 carousel-text-col'></i></p>
+            </div>
+            <div class="card-body">
+                <img src="./images/test-3.jpg" alt="" class="rounded-circle w-25 h-25">
+                <h5 class="fw-bold mt-2">Jena karlis</h5>
+              <p>Store Owner</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card p-4 border-0">
+              <div class="card-title carousel-bg-col rounded-3 p-3">
+              <p><i class='bx bxs-quote-alt-left fs-3 carousel-text-col'></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni molestias maiores cumque atque vitae consequuntur eaque aperiam nihil dicta, recusandae esse veniam quas ea accusantium debitis aspernatur pariatur! Eius, recusandae.  <i class='bx bxs-quote-alt-right fs-3 carousel-text-col'></i></p>
+            </div>
+            <div class="card-body">
+                <img src="./images/test-4.jpg" alt="" class="rounded-circle w-25 h-25">
+                <h5 class="fw-bold mt-2">Matt Brandon</h5>
+              <p>Freelancer</p>
+            </div>
+            </div>
+          </div>
+          
+          <div class="swiper-slide">
+            <div class="card p-4 border-0">
+              <div class="card-title carousel-bg-col rounded-3 p-3">
+              <p><i class='bx bxs-quote-alt-left fs-3 carousel-text-col'></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni molestias maiores cumque atque vitae consequuntur eaque aperiam nihil dicta, recusandae esse veniam quas ea accusantium debitis aspernatur pariatur! Eius, recusandae.  <i class='bx bxs-quote-alt-right fs-3 carousel-text-col'></i></p>
+            </div>
+            <div class="card-body">
+                <img src="./images/test-5.jpg" alt="" class="rounded-circle w-25 h-25">
+                <h5 class="fw-bold mt-2">John Larson</h5>
+              <p>Entrepreneur</p>
+            </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="card p-4 border-0">
+              <div class="card-title carousel-bg-col rounded-3 p-3">
+              <p><i class='bx bxs-quote-alt-left fs-3 carousel-text-col'></i> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni molestias maiores cumque atque vitae consequuntur eaque aperiam nihil dicta, recusandae esse veniam quas ea accusantium debitis aspernatur pariatur! Eius, recusandae.  <i class='bx bxs-quote-alt-right fs-3 carousel-text-col'></i></p>
+            </div>
+            <div class="card-body">
+                <img src="./images/test-6.jpg" alt="" class="rounded-circle w-25 h-25">
+                <h5 class="fw-bold mt-2">Olusola Taiwo</h5>
+              <p>Front-end Developer</p>
+            </div>
+            </div>
+          </div>
+          
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+      </div>
+
+      </div>
+    </section>
+
+    <!-- portfolio -->
+    <section id="portfolio" class="py-5">
+      <div class="py-3 container-sm">
+        <div class="first-content">
+          <h1 class="text-center sec-text-col fs-2 fw-medium">PORTFOLIO</h1>
+        <p class="text-center text-secondary">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+        <div class="d-flex justify-content-center align-items-center my-5">
+          <h6 class="mx-2 all">ALL</h6>
+          <h6 class="mx-2 app">APP</h6>
+          <h6 class="mx-2 card-1">CARD</h6>
+          <h6 class="mx-2 web">WEB</h6>
+        </div>
+      </div>
+
+      <!-- bootstrap mansory -->
+      <div class="row" data-masonry='{ "percentPosition": true }'>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card card-eff border-0">
+            <img src="./images/portfolio-1.jpg" alt="" class="w-100 h-100">
+            <div class="text">  
+              <p class="fs-5">App 1</p>
+              <p>APP</p>
+              <div class="d-flex gx-4">
+                <i class="bi bi-plus fs-3"></i>
+                <i class="bi bi-link-45deg fs-3"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card card-eff border-0">
+            <img src="./images/portfolio-2.jpg" alt="" class="w-100 h-100">
+            <div class="text">
+              <p class="fs-5">Web 3</p>
+              <p>WEB</p>
+              <div class="d-flex gx-4">
+                <i class="bi bi-plus fs-3"></i>
+                <i class="bi bi-link-45deg fs-3"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card card-eff border-0">
+            <img src="./images/portfolio-3.jpg" alt="" class="w-100 h-100">
+            <div class="text">
+              <p class="fs-5">App 2</p>
+              <p>APP</p>
+              <div class="d-flex gx-4">
+                <i class="bi bi-plus fs-3"></i>
+                <i class="bi bi-link-45deg fs-3"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card card-eff border-0">
+            <img src="./images/portfolio-4.jpg" alt="" class="w-100 h-100">
+            <div class="text">
+              <p class="fs-5">Card 2</p>
+              <p>CARD</p>
+              <div class="d-flex gx-4">
+                <i class="bi bi-plus fs-3"></i>
+                <i class="bi bi-link-45deg fs-3"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card card-eff border-0">
+            <img src="./images/portfolio-5.jpg" alt="" class="w-100 h-100">
+            <div class="text">
+              <p class="fs-5">Web 2</p>
+              <p>WEB</p>
+              <div class="d-flex gx-4">
+                <i class="bi bi-plus fs-3"></i>
+                <i class="bi bi-link-45deg fs-3"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card card-eff border-0">
+            <img src="./images/portfolio-6.jpg" alt="" class="w-100 h-100">
+            <div class="text">
+              <p class="fs-5">App 3</p>
+              <p>APP</p>
+              <div class="d-flex gx-4">
+                <i class="bi bi-plus fs-3"></i>
+                <i class="bi bi-link-45deg fs-3"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card card-eff border-0">
+            <img src="./images/portfolio-7.jpg" alt="" class="w-100 h-100">
+            <div class="text">
+              <p class="fs-5">Card 1</p>
+              <p>CARD</p>
+              <div class="d-flex gx-4">
+                <i class="bi bi-plus fs-3"></i>
+                <i class="bi bi-link-45deg fs-3"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card card-eff border-0">
+            <img src="./images/portfolio-8.jpg" alt="" class="w-100 h-100">
+            <div class="text">
+              <p class="fs-5">Card 3</p>
+              <p>Card</p>
+              <div class="d-flex gx-4">
+                <i class="bi bi-plus fs-3"></i>
+                <i class="bi bi-link-45deg fs-3"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card card-eff border-0">
+            <img src="./images/portfolio-9.jpg" alt="" class="w-100 h-100">
+            <div class="text">
+              <p class="fs-5">Web 3</p>
+              <p>WEB</p>
+              <div class="d-flex gx-4">
+                <i class="bi bi-plus fs-3"></i>
+                <i class="bi bi-link-45deg fs-3"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+
+        </div>
+    </section>
+
+    
+
+    <!-- faq -->
+    <section id="faq" class="py-5">
+      <div class="container-sm py-3">
+        <div class="first-content">
+          <h1 class="text-center sec-text-col fs-2 fw-medium">FREQUENTLY ASKED QUESTIONS</h1>
+        <p class="text-center text-secondary mt-3">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+
+        <div class="accordion mt-4" id="accordionExample">
+          <div class="accordion-item border-0">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <span><i class="bi bi-question-circle me-2 fs-4 pri-text-col"></i></span>
+                <span class="fw-medium acc-item">Non consectetur a erat nam at lectus urna duis?</span>
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item border-0 my-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <span><i class="bi bi-question-circle me-2 fs-4 pri-text-col"></i></span>
+                <span class="fw-medium acc-item">Feugiat scelerisque varius morbi enim nunc?</span>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item border-0 my-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <span><i class="bi bi-question-circle me-2 fs-4 pri-text-col"></i></span>
+                <span class="fw-medium acc-item">Dolor sit amet consectetur adipiscing elit?</span>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item border-0 my-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <span><i class="bi bi-question-circle me-2 fs-4 pri-text-col"></i></span>
+                <span class="fw-medium acc-item">Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</span>
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item border-0 my-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <span><i class="bi bi-question-circle me-2 fs-4 pri-text-col"></i></span>
+                <span class="fw-medium acc-item">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?</span>
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- aos amimation js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- initialize aos -->
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- bootstrap masonry -->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <!-- custom script -->
+    <script src="swiper.js"></script>
+  </body>
+</html>
