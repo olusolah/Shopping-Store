@@ -49,6 +49,10 @@ background-color: #124265 !important;
     rgb(225, 225, 225, 0.728),
     rgb(225, 225, 225, 0.728)),
      url('./');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
 }
 
 .z {
@@ -147,6 +151,38 @@ background-color: #124265 !important;
     width: 350px; 
 }
 
+/* faq */
+/* .accordion-button:focus {
+    box-shadow: none !important;
+} */
+
 .accordion-button {
     background-color: transparent !important;
+}
+
+/* team */
+.member-shadow {
+    box-shadow: 0px 2px 15px rgba(18, 56, 101, 0.08);
+}
+
+.img-icons {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    background-color: rgba(255, 255, 255, 0.852);
+    height: 40px;
+    opacity: 0;
+    transition: all ease-in-out 0.3s;
+}
+
+.img-parent {
+    position: relative;
+}
+
+.member-shadow:hover .img-icons {
+    opacity: 1;
 }
