@@ -14,7 +14,6 @@ background-color: #2487ce !important;
     border-color: #2487ce !important;
 }
 
-
 .sec-bg-col {
 background-color: #124265 !important;
 }
@@ -48,7 +47,7 @@ background-color: #124265 !important;
     background: linear-gradient(to bottom, 
     rgb(225, 225, 225, 0.728),
     rgb(225, 225, 225, 0.728)),
-     url('./');
+     url('./images/hero-bg.jpg');
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -97,7 +96,6 @@ background-color: #124265 !important;
     opacity: 0;
     height: 100%;
     width: 100%;
-    /* cursor: pointer; */
 }
 
 .card-eff::before {
@@ -152,10 +150,6 @@ background-color: #124265 !important;
 }
 
 /* faq */
-/* .accordion-button:focus {
-    box-shadow: none !important;
-} */
-
 .accordion-button {
     background-color: transparent !important;
 }
