@@ -271,3 +271,17 @@ background-color: #124265 !important;
     column-gap: 20px;
 }
 
+.copyright-gap {
+    column-gap: 5px;
+}
+
+/* mobile responsiveness */
+@media screen and (max-width: 425px) {
+    .our-products {
+        padding-top: 20px;
+    }
+
+    .newsletter {
+        padding-top: 20px;
+    }
+}
