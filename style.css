@@ -58,6 +58,28 @@ background-color: #124265 !important;
     z-index: 100;
 }
 
+.nav-hover {
+    transition: all ease-in-out 0.3s;
+}
+
+.nav-hover:hover {
+    color: #2487ce !important;
+} 
+
+.button-hover {
+    transition: all ease-in-out 0.3s;
+}
+
+.button-hover:hover {
+    background-color: #1a9af6 !important;
+}
+
+/* hero */
+.appliances {
+    line-height: 12px;
+    font-size: 15px;
+}
+
 /* about us */
 .about-btn {
     transition: all ease-in-out 0.5s;
@@ -66,6 +88,39 @@ background-color: #124265 !important;
 .about-btn:hover {
     background-color: #2487ce !important;
     color: white !important;
+}
+
+/* portfolio */
+.all:hover {
+    color: #2487ce;
+}
+
+.app:hover {
+    color: #2487ce;
+}
+
+.card-1:hover {
+    color: #2487ce;
+}
+
+.web:hover {
+    color: #2487ce;
+}
+
+.all {
+    transition: all ease-in-out 0.5s;
+}
+
+.app {
+    transition: all ease-in-out 0.5s;
+}
+
+.card-1 {
+    transition: all ease-in-out 0.5s;
+}
+
+.web {
+    transition: all ease-in-out 0.5s;
 }
 
 /* testimonials */
@@ -150,6 +205,20 @@ background-color: #124265 !important;
 }
 
 /* faq */
+/* .accordion-button:focus {
+    box-shadow: none !important;
+} */
+
+/* faq */
+.acc-item {
+    transition: all ease-in-out 0.5s;
+}
+
+.acc-item:hover {
+    color: #2487ce !important;
+    background-color: white;
+}
+
 .accordion-button {
     background-color: transparent !important;
 }
@@ -180,3 +249,25 @@ background-color: #124265 !important;
 .member-shadow:hover .img-icons {
     opacity: 1;
 }
+
+/* footer */
+.footer-parameters {
+    font-size: 15px;
+}
+
+.bord {
+    border-color: #2487ce !important;
+}
+
+.icon-size {
+    font-size: 12px;
+}
+
+.gutter {
+    column-gap: 3px;
+}
+
+.icon-space {
+    column-gap: 20px;
+}
+
