@@ -293,10 +293,4 @@ background-color: #124265 !important;
     .subscribe {
         width: 80%;
     }
-
-    input {
-        background-color: red;
-        padding: 70px 10px;
-        width: 200%;
-    }
 }
