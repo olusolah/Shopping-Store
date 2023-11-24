@@ -280,6 +280,10 @@ background-color: #124265 !important;
     column-gap: 5px;
 }
 
+.font {
+    font-size: 30px;
+}
+
 /* mobile responsiveness */
 @media screen and (max-width: 425px) {
     .our-products {
