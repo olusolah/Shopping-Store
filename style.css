@@ -290,9 +290,8 @@ background-color: #124265 !important;
         padding-top: 20px;
     }
 
-    input {
-        display: none;
+    .subscribe {
+        display: flex;
+        flex-direction: column;
     }
-
-
 }
